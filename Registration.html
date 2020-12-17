@@ -1,0 +1,235 @@
+<!doctype html>
+<html>
+<!-- Start of Head -->
+<head>
+<title>Welcome to Keren Wealth Primary School </title>  <!--the title is what appear at the top of the browswer of your website-->
+<link rel = "stylesheet" href = "Registration.css">
+</head>
+<!--End of Head-->
+
+<!-- end of the head-->
+<!-- Start of body-->
+<body> <!-- the body element is a container that contain the paragraphs, table,list,heading,and all the visible content of the web page-->
+
+
+
+
+
+<!--Start of Header-->
+<div class = "header">
+<div class = "logo"><a href = "index.html"><img src ="logo.png" alt = "School Logo" width = "150" height= "150"></a></div> <!--when the user click on the logo it takes them back to the home page withe help of the href-->
+
+<div class = "Loginform">
+<form action = "">  <!-- need an action like php code to be function-->
+<input type = "text" name = "Username" placeholder= "Username Required">
+<input type = "text" name = "Password" placeholder = "Password Required">
+<input type = "submit" = value = "Login">
+
+<a href = "Registration.html">Sign Up </a>
+<a href = "" = > Forgot Password?</a>
+</form>
+</div>
+<div class = "searchpage-container>
+<form action = "">
+<input type ="text" name "search">
+<button type = "Search">Search</button>
+</form>
+</div>
+
+</div>
+
+
+
+
+<!--End of Header-->
+
+
+
+
+
+<!-- Start of Navigation -->
+<!-- The meaning of ul:Unorderd list, li: list-->
+<nav>
+<ul>
+<li><a href = "index.html"> Home </a></li>
+<li><a href = "About Us.html"> About Us </a></li>
+<li><a href = "Parent Information.html"> Parent Information</a></li>	
+<li><a class="active" href = "Registration.html"> Registration </a></li>
+<li><a href = "Contact Us.html"> Contact Us </a></li>
+</ul>
+</nav>
+
+<!-- End of Navigation -->
+
+<br>
+<br>
+
+<h1> Registration form </h1>
+<p> Lorem ipsum dolor sit amet, te impedit partiendo mea, ad aliquid maiorum epicurei eos, diam dolores eu eam. Nec id errem similique, dico veniam debitis sed ex. Quas habemus adipiscing ex sit. Fabulas maiorum scribentur id per. In tale molestiae qui, ei vim audiam mentitum appetere, has ne timeam impedit delectus.<p>
+
+<!-- Start of Registration Form-->
+<div class = "container">      
+<form action = "">
+<div class = "row">
+<div class = "col-25">
+<label for  ="fname"> First Name </label>
+</div>
+<div class = "col-75">
+<input type = "text" id = "fname">
+</div>
+</div>
+
+<!-- The form is put inside a container. 
+     the action attribute is the action that the form will perform when the user click on the submit form. the form data is sent to the server, e.g php.
+	 The column has 100 in width, col-25 which is the label and col-75 is the input here which is later styled in the css-->
+	 
+
+
+<div class = "row">
+<div class = "col-25">
+<label for = "1name"> Last Name </label>
+</div>
+<div class = "col-75">
+<input type = "text" id = "1name">
+</div>
+</div>
+
+<div class = "row">
+<div class = "col-25">
+<label for = "gender"> Gender </label>
+</div>
+<div class = "col-75">
+<select id = "Gender" name = "Gender"> 
+<option value= "select">Select</option>
+<option value= "Girl"> Girl</option>
+<option value = "Boy"> Boy </option>
+<option value = "Other"> Other </option>
+</select>
+</div>
+
+<div class = "row">
+<div class = "col-25">
+<label for = "Other"> If Other </label>
+</div>
+<div class = "col-75">
+<input type = "text" id = "other" placeholder = "Other Gender">
+</div>
+</div>
+
+<div class = "row">
+<div class = "col-25">
+<label for = "dob"> Date of Brith </label>
+</div>
+<div class = "col-75">
+<input type = "text" id = "dob" name = "dob" placeholder = "Day/Month/Year">
+</div>
+</div>
+
+<div class = "row">
+<div class = "col-25">
+<label for = "Address1"> Address 1 </label>
+</div>
+<div class = "col-75">
+<input type = "text" id = "Address1" name = "address1">
+</div>
+</div>
+
+<div class = "row">
+<div class = "col-25">
+<label for = "Address2"> Address 2 </label>
+</div>
+<div class = "col-75">
+<input type = "text" id = "Address2" name = "address2">
+</div>
+</div>
+
+<div class = "row">
+<div class = "col-25">
+<label for = "Postcode"> Post-code </label>
+</div>
+<div class = "col-75">
+<input type = "text" id = "Postcode" name = "Postcode">
+</div>
+</div>
+
+<div class = "row">
+<div class = "col-25">
+<label for ="homeTelephone">Telephone </label>
+</div>
+<div class = "col-75">
+<input type = "text" id ="homeTelephone" name = "homeTelephone">
+</div>
+</div>
+
+<div class = "row">
+<div class = "col-25">
+<label for = "mobileNumber"> Mobile </label>
+</div>
+<div class = "col-75">
+<input type = "text" id = "mobileNumber" name = "mobileNumber">
+</div>
+</div>
+
+<div class = "row">
+<div class = "col-25">
+<label for = "question"> Are any siblins presently attending schools here </label>
+</div>
+<div class = "col-75">
+<select id = "Question" name = "Question"> 
+<option value= "select">Select</option>
+<option value= "Yes"> Yes</option>
+<option value = "No"> No</option>
+</select>
+</div>
+</div>
+
+
+<div class = "row">
+<div class = "col-25">
+<label for = "Question" > Any disability </label>
+</div>
+<div class = "col-75">
+<input type = "text" id = "question">
+</div>
+</div>
+<div class = "row">
+<input type = "Submit" value = "Submit">
+</div>
+</div>
+</form>
+</div>
+
+<!-- End of Registration Form-->
+
+
+
+<!-- Start of the footer-->
+<footer>
+
+<address> School Address: <br>
+Arden House,<br> Middlemarch Park,<br> Coventry CV3 4FJ,<br> United Kingdom </address>
+
+
+
+<div class = "socialMedia-icon">
+<a href = "https://www.facebook.com/" ><img src = "facebook.png " alt= "facebook" width = "50px" height="50px"></a>
+<a href = "https://www.whatsapp.com/" ><img src = "Whatsapp.png"  alt "Whatsapp" width = "50px" height = "50px">
+<a href = "https://www.instagram.com/" ><img src = "Instagram.png" alt "Instagram" width = "50px" height  = "50px">
+<a href = "https://www.youtube.com/" ><img src = "Youtube.png" alt "Youtube" width = "50px" height  = "50px">
+</div>
+
+
+<p class = "copyright">
+&copy; 2020
+&reg; 382900382
+</p> 
+
+<address>
+
+</footer>
+<!-- end of the footer-->
+
+
+</body>
+<!--End of the body-->
+</html>

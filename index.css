@@ -1,0 +1,177 @@
+* {
+  box-sizing: border-box;  /* The width and the height applies to all part of element this includes padding, borders and the content of page*/
+}
+body{ 
+	padding:0px;
+	font-family: Arial, Helvetica, Sans-serif; /* helps if the browser does not support one font, it will try the next font presented*/ 
+	
+}
+
+
+/* Start of header*/
+.header{ /*styling the header */
+	margin:10px;	
+} 
+
+
+
+.Loginform{ /*styling the login form*/
+	padding:20px 0 30px 0;
+	text-align:right;
+	
+	
+}
+a{
+	text-decoration:none;  
+	text-align:block;      
+	padding:10px;          
+	display:block;         
+	display:inline-block;   
+}
+
+
+
+
+.Loginform input[type = submit]{  /* styling the submit button  */ 
+	background-color:#BFC5C2;
+	color:white;
+	cursor: pointer; /* the mouse cursor will display on the submit button  */
+	padding:10px
+}
+
+.Loginform input[type = text]{  /* styling the text input area of the login form   */ 
+	padding:10px 10px 10px 0;
+	border:3px solid #BFC5C2;
+	
+}
+
+/* End of header*/
+
+/* Start of Navigation menu   */ 
+
+nav { /*styling the navigational menu*/
+	margin:10px; 
+	height:100px;
+	background-color: #BFC5C2;	
+}
+
+
+nav ul { /*styling the un-order list */
+	float:right;   /* Displace the menu to the right side of the screen   */ 
+	
+	
+	
+}
+
+nav ul li { /* styling the list item */
+	list-style: none;         /*Takes away the dot before the list  */ 
+	display: inline-block;    /* make the list disaplay horizortal  */ 
+	line-height:25px        
+	
+	
+}
+
+nav ul li a { /* styling the a tag of the list item*/
+	text-decoration:none;     /* take out the underline in the list   */ 
+	display:block;            /* give it the block form   */ 
+	margin: 14px; 
+	color: black;
+	
+	
+}
+nav ul li a:hover {  /* styling the hover menu */   
+  background-color: #806a95;
+  color: white;
+  border-radius:10px;  /*gives it the curve edge*/
+  
+}
+
+nav ul li a.active { /* Styling the menu page that is active or open*/
+  background-color: #806a95;
+  color: white;
+  border-radius:10px; /*gives it the curve edge*/
+}
+
+
+
+/*End of  Navigation*/
+
+
+
+
+/* Start of Welcome message(main) content*/
+.main{
+	background-color: #BFC5C2;
+	margin:10px;
+	border-radius:20px;/* give it that curve look at the edge*/
+	padding:20px;
+}
+
+/*End of Main*/
+
+
+
+/*Start of Facilities content*/
+
+.facilities{
+	text-align:center;  
+	
+}
+.column{     /* creating 3 equal columns 33% each*/
+	float:left;         
+	width:33%;          /* the whole width is 99% divided by 3, since the column is 3   */ 
+	padding: 10px 15px;	 
+}
+
+
+
+.row:after{         /* Is called a clearfix hack, it helps to clear floats after the columns*/ 
+	content:"";
+	display:table;
+	clear:both;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);  /* It add effect to the card */ 
+  padding: 20px;   
+  text-align: center;                                 /* all the content are align in the center  */ 
+  background-color: #f1f1f1;
+}
+
+@media screen and (max-width: 600px) {         /*The media queries help the column to be responsive when the screen is less then 600px or wide*/
+.column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+   
+/*End of Facilities content */
+
+
+/* start of Our Partners and Awards*/
+h2{
+	text-align:center;	/*   */ 	
+}
+
+.Awards{
+	margin-left:10%; /* the 10% is use to give the margin left */
+}
+/* End of Our Partners and Awards*/
+
+
+
+
+/* Start of Footer*/
+address{
+	float:right; /*the address appears on the right side in the footer.*/
+}
+
+footer{
+	background-color:#BFC5C2;
+	padding:10px;
+	width:100%;
+	
+}
+
+/*End of Footer*/

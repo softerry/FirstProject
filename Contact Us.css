@@ -1,0 +1,201 @@
+* {
+  box-sizing: border-box; /* The width and the height applies to all part of element this includes padding, borders and the content of page*/
+}
+body{
+	background-color:;
+	padding:0px;
+	font-family: Arial, Helvetica, Sans-serif; /* helps if the browser does not support one font, it will try the next font presented*/ 
+	
+}
+
+
+
+/* Start of header*/
+.header{ /*styling the header */
+	margin:10px;	
+} 
+
+
+
+.Loginform{ /*styling the login form*/
+	padding:20px 0 30px 0;
+	text-align:right;
+	
+	
+}
+
+a{
+	text-decoration:none;  
+	text-align:block;      
+	padding:10px;          
+	display:block;         
+	display:inline-block;   
+}
+
+
+
+
+.Loginform input[type = submit]{  /* styling the submit button  */
+	background-color:#BFC5C2;
+	color:white;
+	cursor: pointer; /* the mouse cursor will display on the submit button  */
+	padding:10px
+}
+
+.Loginform input[type = text]{   /* styling the text input area of the login form   */ 
+	padding:10px 10px 10px 0;
+	border:3px solid #BFC5C2;
+	
+}
+	
+/* End of header   */ 
+
+/* Start of Navigation menu   */ 
+
+nav { /*styling the navigational menu*/
+	margin:10px; 
+	height:100px;
+	background-color: #BFC5C2;	
+}
+
+
+nav ul { /*styling the un-order list */
+	float:right;   /* Displace the menu to the right side of the screen   */ 
+	
+	
+	
+}
+
+nav ul li { /* styling the list item */
+	list-style: none;         /*Takes away the dot before the list  */ 
+	display: inline-block;    /* make the list disaplay horizortal  */ 
+	line-height:25px        
+	
+	
+}
+
+nav ul li a { /* styling the a tag of the list item*/
+	text-decoration:none;     /* take out the underline in the list   */ 
+	display:block;            /* give it the block form   */ 
+	margin: 14px; 
+	color: black;
+	
+	
+}
+nav ul li a:hover {  /* styling the hover menu */   
+  background-color: #806a95;
+  color: white;
+  border-radius:10px;  /*gives it the curve edge*/
+  
+}
+
+nav ul li a.active { /* Styling the menu page that is active or open*/
+  background-color: #806a95;
+  color: white;
+  border-radius:10px; /*gives it the curve edge*/
+}
+
+
+
+/*End of  Navigation*/
+
+
+.contactus-container { /*styling the contact us form */
+  border-radius: 10px; /* gives it the curve edge*/
+  background-color:#BFC5C2;
+  padding: 20px;
+  display:center;
+}
+
+.contactus-container input[type=text],textarea { /* styling the input of the form*/
+  width: 70%; /* the whole width of the input area is 70%*/
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.contactus-container label { /* the label area of the form*/
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+.contactus-container input[type=submit] { /*styling the submit button*/
+  background-color: #806a95;
+  color: white; /*makes the font of the button white*/
+  padding: 12px 20px;
+  border: none;
+  border-radius:20px;
+  cursor: pointer;
+  float: right;
+}
+
+
+
+
+
+.col-25 { /* styling the label area of the form which is 25 columns*/
+  float: left;
+  width: 10%;
+  margin-top: 6px;
+}
+
+.col-75 { /* styling the input area of the form which is 75 columns*/
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+.col-25, .col-75, .contactus-container input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+p{ /*Content the address information*/
+	text-align:center;
+}
+
+h1{ 
+	text-align: center;
+}
+table.center{/* styling of table*/
+	margin-left:auto;
+	margin-right:auto;
+    
+}
+
+
+table, th, td {
+  border: 1px solid black;
+}
+
+th, td {
+  padding: 10px;
+}
+
+
+
+/* Start of Footer*/
+address{
+	float:right; /*the address appears on the right side in the footer.*/
+}
+
+footer{
+	background-color:#BFC5C2;
+	padding:10px;
+	width:100%;
+	
+}
+
+/*End of Footer*/
+
+
+

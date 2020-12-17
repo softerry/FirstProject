@@ -1,0 +1,160 @@
+* {
+  box-sizing: border-box;  /* The width and the height applies to all part of element this includes padding, borders and the content of page*/
+}
+body{ 
+	padding:0px;
+	font-family: Arial, Helvetica, Sans-serif; /* helps if the browser does not support one font, it will try the next font presented*/ 
+	
+}
+
+
+/* Start of header*/
+.header{ /*styling the header */
+	margin:10px;	
+} 
+
+
+
+.Loginform{ /*styling the login form*/
+	padding:20px 0 30px 0;
+	text-align:right;
+	
+	
+}
+a{
+	text-decoration:none;  
+	text-align:block;      
+	padding:10px;          
+	display:block;         
+	display:inline-block;   
+}
+
+
+
+
+.Loginform input[type = submit]{  /* styling the submit button  */ 
+	background-color:#BFC5C2;
+	color:white;
+	cursor: pointer; /* the mouse cursor will display on the submit button  */
+	padding:10px
+}
+
+.Loginform input[type = text]{  /* styling the text input area of the login form   */ 
+	padding:10px 10px 10px 0;
+	border:3px solid #BFC5C2;
+	
+}
+
+/* End of header*/
+
+/* Start of Navigation menu   */ 
+
+nav { /*styling the navigational menu*/
+	margin:10px; 
+	height:100px;
+	background-color: #BFC5C2;	
+}
+
+
+nav ul { /*styling the un-order list */
+	float:right;   /* Displace the menu to the right side of the screen   */ 
+	
+	
+	
+}
+
+nav ul li { /* styling the list item */
+	list-style: none;         /*Takes away the dot before the list  */ 
+	display: inline-block;    /* make the list disaplay horizortal  */ 
+	line-height:25px        
+	
+	
+}
+
+nav ul li a { /* styling the a tag of the list item*/
+	text-decoration:none;     /* take out the underline in the list   */ 
+	display:block;            /* give it the block form   */ 
+	margin: 14px; 
+	color: black;
+	
+	
+}
+nav ul li a:hover {  /* styling the hover menu */   
+  background-color: #806a95;
+  color: white;
+  border-radius:10px;  /*gives it the curve edge*/
+  
+}
+
+nav ul li a.active { /* Styling the menu page that is active or open*/
+  background-color: #806a95;
+  color: white;
+  border-radius:10px; /*gives it the curve edge*/
+}
+
+
+
+/*End of  Navigation*/
+
+
+
+/* Start of table */
+
+h1{
+	text-align:center;
+	margin-top:40px;
+}
+
+p{
+	text-align:center;
+}
+
+.main1{
+	padding-bottom:40px;
+	
+}
+
+
+table.main2{
+	margin-left:auto;
+	margin-right:auto;  
+}
+
+table.main3{
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:40px;
+}
+
+caption{
+	font-size:bold 40px;
+	
+}
+
+
+table, th, td {
+  border: 1px solid black;
+  margin-bottom:20px;
+}
+
+th, td {
+  padding: 10px;
+}
+/* End of table */
+
+/* Start of Footer*/
+address{
+	float:right; /*the address appears on the right side in the footer.*/
+}
+
+footer{
+	background-color:#BFC5C2;
+	padding:10px;
+	width:100%;
+	
+}
+/* End of Footer*/
+
+
+/*End of Footer*/
+
